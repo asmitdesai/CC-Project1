@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Build output
+frontend/dist/
+build/
+
+# Logs and cache
+*.log
+npm-debug.log*
+.DS_Store
+.cache
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
